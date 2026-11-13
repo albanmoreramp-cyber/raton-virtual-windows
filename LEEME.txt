@@ -1,0 +1,25 @@
+﻿AI VIRTUAL MOUSE v18
+Creado por Alban Morera Peralta - albanmoreram.p@gmail.com
+====================================================================
+
+CREAR EL .EXE
+  1. Descomprime esta carpeta donde quieras (puede llevar tildes, p. ej.
+     "raton virtual (python)").
+  2. Haz doble clic en "crear_exe.bat".
+  3. Espera a que ponga LISTO (la primera vez, unos minutos).
+  4. Ya tienes "AI Virtual Mouse.exe" en esta carpeta. Lleva el modelo
+     de la mano dentro: no necesita Python para funcionar.
+  Si Windows muestra "Windows protegio su PC": "Mas informacion" ->
+  "Ejecutar de todas formas".
+
+  El .exe guarda "camara.json" (camara elegida y exposicion) junto a el.
+  Si la imagen sale negra: pulsa el boton "Auto" del panel o la tecla e.
+
+USARLO EN PYTHON (sin .exe)
+  pip install opencv-python mediapipe pyautogui numpy pystray pillow comtypes pygrabber
+  python raton_virtual.py
+
+ICONO JUNTO AL RELOJ
+  Clic derecho: Pausar / reanudar y Salir.
+
+Si algo falla, mira "AI Virtual Mouse - registro.txt" junto al programa.
